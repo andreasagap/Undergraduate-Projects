@@ -12,5 +12,5 @@ It has many limitations, including:
 License
 -------
 
-This code is in the public domain (see [UNLICENSE](UNLICENSE) for more details).
+This code is in the public domain (see [UNLICENSE](https://unlicense.org/) for more details).
 This means you can use, modify, and distribute it without any restriction.
