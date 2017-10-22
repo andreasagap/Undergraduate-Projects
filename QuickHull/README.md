@@ -40,3 +40,11 @@ The shortest distance is 185.11044
 The shortest path is: (4.0,62.0)-->(6.0,53.0)-->(38.0,24.0)-->(120.0,48.0)-->(125.0,95.0)
 Number of weightings: 4
 ```
+
+
+License
+-------
+
+This code is in the public domain (see [UNLICENSE](https://unlicense.org/) for more details).
+This means you can use, modify, and distribute it without any restriction.
+
