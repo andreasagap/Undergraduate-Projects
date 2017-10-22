@@ -1,4 +1,4 @@
-## Usage of KMeans with Hadoop
+## Usage of KMeans with Hadoop MapReduce
 
 
 The program:
