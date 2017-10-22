@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Μάντεψε τον αριθμό</string>
+    <string name="title">Μάντεψε τον αριθμό</string>
+    <string name="Times">Προσπάθειες</string>
+    <string name="restart">Επανεκκίνηση</string>
+    <string name="ok">Εισαγωγή</string>
+    <string name="guessing">Μάντεψε τον αριθμό</string>
+    <string name="less">Προσοχή! Ο αριθμός σου είναι μικρότερος του 1</string>
+    <string name="greater">Προσοχή! Ο αριθμός σου είναι μεγαλύτερος του 100</string>
+    <string name="no_number">Προσοχή! Εισάγετε αριθμό </string>
+    <string name="smaller">Ο αριθμός είναι μικρότερος του</string>
+    <string name="bigger">Ο αριθμός είναι μεγαλύτερος του</string>
+    <string name="Congrats">Συγχαρητήρια! Βρήκες τον αριθμό. </string>
+    <string name="restart_msg">Πατήστε το κουμπί "Επανεκκίνηση"</string>
+    <string name="number">Ο αριθμός ήταν:</string>
+</resources>

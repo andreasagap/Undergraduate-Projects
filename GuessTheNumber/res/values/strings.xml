@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Guess the Number</string>
+    <string name="title">Guess the Number</string>
+    <string name="Times">Tries</string>
+    <string name="restart">Restart</string>
+    <string name="ok">Enter</string>
+    <string name="guessing">Guess the number</string>
+    <string name="less">WARNING: Your number is smaller than 1.</string>
+    <string name="greater">WARNING: Your number is bigger than 100.</string>
+    <string name="no_number">WARNING: You did not enter a number  </string>
+    <string name="smaller">The number is smaller than</string>
+    <string name="bigger">The number is bigger than </string>
+    <string name="Congrats">Congratulations! You find the number </string>
+    <string name="restart_msg">Restart the game</string>
+    <string name="number">The number was</string>
+</resources>
