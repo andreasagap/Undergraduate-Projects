@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>AlarmView.qml</file>
+        <file>AddAlarm.qml</file>
+        <file>add.png</file>
+        <file>del.png</file>
+        <file>EditAlarm.qml</file>
+        <file>sound.mp3</file>
+    </qresource>
+</RCC>
