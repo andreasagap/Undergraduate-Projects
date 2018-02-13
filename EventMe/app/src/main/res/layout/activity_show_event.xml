@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/scroll"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_show_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="eventme.eventme.showEvent"
+        android:background="@drawable/backphoto">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/event_null"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            android:id="@+id/imageView"
+            android:background="@android:color/transparent"
+            tools:ignore="ContentDescription"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToShop"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:text="@string/eventname"
+            android:id="@+id/ename"
+            android:typeface="serif"
+            android:background="@android:color/transparent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+            <Button
+                android:text="@string/date"
+                android:id="@+id/date"
+                android:background="@android:color/transparent"
+                android:typeface="serif"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                tools:ignore="ObsoleteLayoutParam" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:requiresFadingEdge="vertical"
+            android:fadingEdgeLength="8sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:maxLines="3"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                tools:fadingEdgeLength="8sp"
+                tools:ignore="ObsoleteLayoutParam" />
+        </ScrollView>
+
+
+    <RelativeLayout
+                android:id="@+id/map_layout"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+            <fragment
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.MapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="8dp" />
+
+                <ImageView
+                    android:id="@+id/transparent_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:alpha="0" />
+            </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

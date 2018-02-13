@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="eventme.eventme.profileEdit"
+    android:background="@drawable/backphoto">
+
+
+    <ImageView
+
+        android:id="@+id/userphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2.5"
+        android:background="@android:color/transparent"
+        android:onClick="changePhoto"
+        android:adjustViewBounds="true"
+        android:src="@drawable/profile"
+        tools:ignore="ContentDescription,NestedWeights" />
+
+    <EditText
+        android:id="@+id/etonoma"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:backgroundTint="#13183b"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:hint="@string/name"
+        />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#13183b"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:hint="@string/email"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/etcode"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:hint="@string/code"
+        android:backgroundTint="#13183b"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/save_changes"
+            android:textAllCaps="false"
+            android:background="@drawable/shapebtn"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:backgroundTint="#4e66de"
+            tools:ignore="UnusedAttribute"
+            android:onClick="saveChanges"/>
+
+    </LinearLayout>
+</LinearLayout>

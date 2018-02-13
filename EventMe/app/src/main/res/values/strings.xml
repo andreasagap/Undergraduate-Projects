@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="completeallfields">Complete all fields</string>
+    <string name="loginfailed">Login failed</string>
+    <string name="atleastcharacters">At least three characters</string>
+    <string name="entervalidmail">enter a valid email address</string>
+    <string name="passwordissmall">password is small</string>
+    <string name="passworddonotmatch">password do not small</string>
+    <string name="accountCreated">Accound Created</string>
+    <string name="checkEventsName">Event Name</string>
+    <string name="checkDate">Date</string>
+    <string name="checkhour">Hour</string>
+    <string name="checkLocation">Location</string>
+    <string name="app_name">EventME</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="name">Username</string>
+    <string name="email">Ε-mail</string>
+    <string name="changepic">Change Picture</string>
+    <string name="code">Password</string>
+    <string name="description">Description</string>
+    <string name="facebook_page">Facebook Page</string>
+    <string name="phone">Phone</string>
+    <string name="edit">Edit Profile</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="instagram_page">Instagram page</string>
+    <string name="location">Location</string>
+    <string name="exit">Log out</string>
+    <string name="newevent">New event</string>
+    <string name="password">Password</string>
+    <string name="register">Create new account</string>
+    <string name="Login">Sign in</string>
+    <string name="hour">Hour</string>
+    <string name="save">Save</string>
+    <string name="uploadPhoto">Upload new photo</string>
+    <string name="date">Date</string>
+    <string name="lastname">Last name</string>
+    <string name="owner">Are you owner;</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="changepassword">Change password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="enter_old_password">Enter old password</string>
+    <string name="shop_title">Shop\'s title</string>
+    <string name="loginregister">Login/Register</string>
+    <string name="myprofile">My profile</string>
+    <string name="title_activity_user_profile1">UserProfile1</string>
+    <string name="eventname">Event Name</string>
+
+</resources>

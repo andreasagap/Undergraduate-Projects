@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "589384753318",
+    "firebase_url": "https://eventme-e9965.firebaseio.com",
+    "project_id": "eventme-e9965",
+    "storage_bucket": "eventme-e9965.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589384753318:android:4485ca29de27e055",
+        "android_client_info": {
+          "package_name": "eventme.eventme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589384753318-jggde7s4ujdodjvj6vcg3lgcgrnm2c1v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eventme.eventme",
+            "certificate_hash": "53df3442a4f09d200249e67802cb669c66f02421"
+          }
+        },
+        {
+          "client_id": "589384753318-cii10m2376v6av45h8tv9v5i3tc5cj55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfXCLEOTAJ0ZGuE20CT20DDX85CqmaUTQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589384753318-cii10m2376v6av45h8tv9v5i3tc5cj55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
