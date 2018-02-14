@@ -10,7 +10,7 @@ The program contains graphics to make easier for the user to see the agents's lo
 * The sea is blue.
 
 ### Preview
-![alt text](https://github.com/andreasagap/Undergraduate-Projects/TreasureHunt/preview.png)
+![alt text](https://github.com/andreasagap/Undergraduate-Projects/blob/master/%CE%A4reasureHunt/preview.PNG)
 
 ### Contributors:
 * [Andreas Agapitos](https://github.com/andreasagap)
